@@ -1,5 +1,46 @@
 .App {
-  text-align: center;
+
+}
+
+p {
+  font-family: 'Graphik web',sans-serif;
+  color: #222;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+a {
+  background-color: transparent;
+  transition: color 150ms ease-in-out;
+  color: #dc188b;
+  text-decoration: underline;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.btn {
+  padding: 17px 32px;
+  border-radius: 3px;
+  transition: background-color .2s;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 500;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #bd0270;
+  color: #fff;
+}
+
+.btn-primary {
+  display: inline-block;
+  text-align: left;
+  background-color: #dc188b;
 }
 
 .App-logo {
