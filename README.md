@@ -4,7 +4,7 @@ Completed by: Tim Semple\
 Date: 30th March 2023
 
 ## Deployment
-
+See the form here - https://lucky-vacherin-9e8f62.netlify.app/
 
 ## Requirements
 An electronic form to onboard a new staff member and provide a calculation of local taxation figures. This is a common situation for employers that have purchased Human Capital Software (HCM) that has been developed overseas without consideration for local employment tax rates.
@@ -29,8 +29,8 @@ The form will have “vanilla” or “bootstrap” styling based on the assumpt
 ## Development
 - Use ReactJS for fast development and to advantage of the large pool of developer in the future
 - A single page app that can be inflated within a webpage or secure environment to collect data from the candidate
-- This should be self contained app without dependency on a backend or external API
-- Use only HTML5 Form elements and validation as we wont be creating any backend processing
+- This should be self-contained app without dependency on a backend or external API
+- Use only HTML5 Form elements and validation as we won't be creating any backend processing
 - Use bootstrap styling for standard form elements
 - Minimise external packages to reduce ongoing maintenance and have decided not to use precompiled CSS as the size of the project and quantity of CSS rule didn’t justify the setup
 - In reality the form would output data to the HR Software’s API - in which case I map the fields using the same naming conventions, syntax, etc to match the API’s expected input
@@ -68,80 +68,3 @@ The results of the calculations can be tested manually with the following cases 
 
 
 End of document (default dev notes below)
-
-
-
-_______________________
-
-
-# Getting Started with Create React App
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -110,7 +110,7 @@ function App() {
             <label htmlFor="superInput">Superannuation</label>
             <input disabled type="text" className="form-control" id="superInput" aria-describedby="superHelp"
                    placeholder="Your super" value={superCon} onChange={(e) => setSuper(e.target.value)}/>
-            <small id="salaryHelp" className="form-text text-muted">The employers Super Annuation contribution is based on th current compulsary amount of {superContribution}%</small>
+            <small id="salaryHelp" className="form-text text-muted">The employers Superannuation contribution is based on th current compulsory amount of {superContribution}%</small>
           </div>
 
           <div className="form-group">
