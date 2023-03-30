@@ -18,19 +18,19 @@ At a minimum the form needs to collect personal details of the candidate. We mus
 - Full Name, DOB, Address, etc
 - A hidden field containing a UID provided by the HCM software
 - Salary / Tax / Super fields
-- Residency status, medicare levy, tax threshold eligibility, HECS debt, etc to enable a more accurate calculation of salary items
+- Residency status, medicare levy, tax threshold eligibility, HECS debt, etc to enable a more accurate calculation of salary
 
 ## Design Choices
 The form will have “vanilla” or “bootstrap” styling based on the assumption that it will be embedded into another environment, with some styling to be protected and other elements that are open to inherit the parent’s styling
 - A simple stacked layout that is responsive without extended development
-- The published form will be accessible to meet the clients requirements (generally WCAG 2.1
+- The published form will be accessible to meet the clients requirements (generally WCAG 2.1)
 - To make the example more visually appealing I have included some CSS styles from Bank Australia because I really like their branding!
 
 ## Development
-- Use ReactJS for fast development and to advantage of the large pool of developer in the future
+- Use ReactJS for fast development and to take advantage of the large pool of proficient developers in the future
 - A single page app that can be inflated within a webpage or secure environment to collect data from the candidate
-- This should be self-contained app without dependency on a backend or external API
-- Use only HTML5 Form elements and validation as we won't be creating any backend processing
+- This should be a self-contained app without dependencies on a backend or external API
+- Use only HTML5 Form elements and validation as we won't be creating any backend for processing or validation
 - Use bootstrap styling for standard form elements
 - Minimise external packages to reduce ongoing maintenance and have decided not to use precompiled CSS as the size of the project and quantity of CSS rule didn’t justify the setup
 - In reality the form would output data to the HR Software’s API - in which case I map the fields using the same naming conventions, syntax, etc to match the API’s expected input
