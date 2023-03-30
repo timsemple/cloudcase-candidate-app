@@ -37,6 +37,11 @@ a {
   color: #fff;
 }
 
+.btn:focus {
+  background-color: #bd0270;
+  color: #fff;
+}
+
 .btn-primary {
   display: inline-block;
   text-align: left;

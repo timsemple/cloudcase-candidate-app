@@ -1,9 +1,6 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import { useState } from 'react';
-import button from "bootstrap/js/src/button";
-
 
 function App() {
 
