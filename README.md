@@ -14,7 +14,7 @@ An electronic form to onboard a new staff member and provide a calculation of lo
 - To provide a welcoming or delightful user experience for the candidate in order to make a good first impression of the employer
 
 ## Form Fields
-At a minimum the form needs to collect personal details of the candidate. We must assume that the employer already has some details in their system already so the form will have a combination of fields and pre populated data -
+At a minimum the form needs to collect personal details of the candidate. We must assume that the employer already has some details in their system so the form will have a combination of fields and pre-populated data -
 - Full Name, DOB, Address, etc
 - A hidden field containing a UID provided by the HCM software
 - Salary / Tax / Super fields
