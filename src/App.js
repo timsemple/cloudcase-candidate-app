@@ -36,6 +36,8 @@ function App() {
     setTax(tax);
     setFormattedTax(formatter.format(tax));
 
+    calculatePay(salary, tax);
+
   }
 
   const calculateSuper = (salary) => {
@@ -56,7 +58,6 @@ function App() {
     setSalary(salary);
     calculateTax(salary);
     calculateSuper(salary);
-    calculatePay(salary, tax);
 
   }
 
@@ -110,7 +111,7 @@ function App() {
             <label htmlFor="superInput">Superannuation</label>
             <input disabled type="text" className="form-control" id="superInput" aria-describedby="superHelp"
                    placeholder="Your super" value={superCon} onChange={(e) => setSuper(e.target.value)}/>
-            <small id="salaryHelp" className="form-text text-muted">The employers Superannuation contribution is based on th current compulsory amount of {superContribution}%</small>
+            <small id="salaryHelp" className="form-text text-muted">The employers Superannuation contribution is based on the current compulsory amount of {superContribution}%</small>
           </div>
 
           <div className="form-group">
