@@ -57,12 +57,12 @@ The results of the calculations can be tested manually with the following cases 
 
 ### Bracket 2
 - Action: Enter a base salary of $24560
-- Observed: Tax = $1208.40, Super = $2578.80, Pay = $944.62
+- Observed: Tax = $1208.40, Super = $2578.80, Pay = $898.14
 - Expected: As above (confirmed on ATO Simple Tax Calculator - https://www.ato.gov.au/Calculators-and-tools/Host/?anchor=STC&anchor=STC#STC/questions)
 
 ### Bracket 4
 - Action: Enter a base salary of $168000
-- Observed: Tax = $49657.00, Super = $17640.00, Pay = $6461.54
+- Observed: Tax = $49657.00, Super = $17640.00, Pay = $4551.65
 - Expected: The ATO Simple Tax Calculator displays a different result for tax which can possibly be attributed to medicare levi which has not been considered in this exercise
 
 
