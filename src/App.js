@@ -22,9 +22,7 @@ function App() {
   ]
 
   // check which tax bracket the salary sits within
-  const calculateTax = (salary) => {
-
-    let tax;
+  const calculateTax = (salary, tax) => {
 
     taxBrackets.forEach(function (value, i) {
       if (salary >= taxBrackets[i].low && salary <= taxBrackets[i].high) {
@@ -55,6 +53,7 @@ function App() {
 
   const handleSalary = (salary) => {
 
+    setTax(tax);
     setSalary(salary);
     calculateTax(salary);
     calculateSuper(salary);
